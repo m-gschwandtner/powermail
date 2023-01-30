@@ -14,6 +14,18 @@
 
 <body>
     <div id="app">Loading ...</div>
+
+    <style>
+        img[src*="Resources/Public/Icons/powermail.svg"] {
+            display: none;
+        }
+
+        .markdown-section p.tip,
+        .markdown-section tr {
+            background-color: transparent !important;
+        }
+    </style>
+
     <script>
         // Docsify configuration
         window.$docsify = {
@@ -22,10 +34,8 @@
             auto2top: true,
             executeScript: true,
             loadSidebar: true,
-            loadNavbar: true,
-            mergeNavbar: true,
             maxLevel: 4,
-            subMaxLevel: 4,
+            subMaxLevel: 2,
             relativePath: true,
             name: "Powermail",
             search: {
@@ -35,7 +45,6 @@
             alias: {
                 "/Documentation/(.*)": "/$1",
                 "/Documentation/Documentation/(.*)": "/$1",
-                "../Resources/Public/Icons/powermail.svg": "https://raw.githubusercontent.com/einpraegsam/powermail/master/Resources/Public/Icons/powermail.svg",
             },
         };
     </script>
