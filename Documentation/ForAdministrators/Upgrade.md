@@ -8,7 +8,7 @@ as possible.
 
 ## Upgrade Instructions
 
-You find instructions for each major version. [Upgrade Instructions](/Documentation/Changelog/RUpgradeInstructions.md)
+You find instructions for each major version. [Upgrade Instructions](../Changelog/UpgradeInstructions.md)
 
 ## Any Upgrade
 
@@ -30,7 +30,6 @@ Please follow these steps before you create a bug entry on GitHub:
 * Check again
 * Still problems? Please report to `GitHub <https://github.com/einpraegsam/powermail/issues>`_
 
-
 ## Bugfix Upgrade
 
 ### Example
@@ -48,7 +47,6 @@ An upgrade should be very easy. Follow these steps:
 * Reload Frontend
 * Reload Backend
 * Done
-
 
 ## Minor Upgrade
 
@@ -70,7 +68,6 @@ Follow these steps:
 * Reload Backend
 * Update Backend User Rights for the new powermail version
 * Done
-
 
 ## Major Upgrade
 

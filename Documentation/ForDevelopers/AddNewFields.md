@@ -6,6 +6,8 @@ Per default, there are a lot of Field-Types available in Powermail.
 
 ![developer_new_fields1](../Images/developer_new_fields1.png)
 
+![plugin1](../Images/plugin1.png)
+
 If you want to add further fields, you can do this with a little bit of Page TSConfig.
 
 ```
@@ -24,7 +26,6 @@ tx_powermail.flexForm.type.addFieldOptions.new = New Field
 #tx_powermail.flexForm.type.addFieldOptions.new.export = 1
 ```
 
-
 With this TSConfig a new Option is available:
 
 ![developer_new_fields2](../Images/developer_new_fields2.png)
@@ -35,7 +36,7 @@ If an editor chose the new field, powermail searches by default for a Partial wi
 Because you should not modify anything within an extension-folder (because of upcoming extension-updates),
 you should create a new file in your fileadmin folder - e.g.: fileadmin/powermail/Partials/Form/Field/New.html
 
-### Example Content:
+### Example Content
 
 ```
 <div>
@@ -54,7 +55,7 @@ plugin.tx_powermail.view.partialRootPaths {
 
 ### Example Code
 
-Look at https://github.com/einpraegsam/powermailextended for an example extension.
+Look at <https://github.com/einpraegsam/powermailextended> for an example extension.
 This extension allows you to:
 
 - Extend powermail with a complete new field type (Just a small "Show Text" example)

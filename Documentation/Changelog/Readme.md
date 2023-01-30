@@ -2,7 +2,7 @@
 
 **Note:** Breaking changes are marked with !!!
 
-See [Upgrade instructions and breaking changes](/Documentation/Changelog/UpgradeInstructions.md) for some details on
+See [Upgrade instructions and breaking changes](UpgradeInstructions.md) for some details on
 breaking changes and how to handle them
 
 | Version      | Release Date | Description                                                                                                                                                                                                           |
@@ -33,7 +33,7 @@ breaking changes and how to handle them
 |              |              | Docs: Add general upgrade instructions (Stefan Busemann)                                                                                                                                                              |
 | 8.4.2        | 2022-08-23   | Bugfix: Fix formlisting in plugins for editors with restricted page access                                                                                                                                            |
 | 8.4.1        | 2021-08-11   | Task: Also Sanitize CSV and XLS export in Pi2 (not only the export in the backend module)                                                                                                                             |
-| 8.4.0        | 2021-08-11   | Task: Sanitize CSV and XLS export against excel hacks (see https://typo3.org/security/advisory/typo3-psa-2021-002)                                                                                                    |
+| 8.4.0        | 2021-08-11   | Task: Sanitize CSV and XLS export against excel hacks (see <https://typo3.org/security/advisory/typo3-psa-2021-002>)                                                                                                    |
 |              |              | Task: Add automatic test via github actions                                                                                                                                                                           |
 | 8.3.3        | 2021-07-27   | Bugfix: Fix some more typehint problems                                                                                                                                                                               |
 |              |              | Bugfix: Fix a problem with start- and endtime in backend records                                                                                                                                                      |
@@ -87,8 +87,8 @@ breaking changes and how to handle them
 |              |              | Task: Replace old conditions with new symfony conditions                                                                                                                                                              |
 |              |              | Task: Use TSFE for all functions that listen to GET/POST now to support routing                                                                                                                                       |
 |              |              | Task: Replace old extbase commandcontrollers with symfony commands                                                                                                                                                    |
-|              |              | Task: Rename _field.pages to .page and _page.forms to .form and add an upgrade wizard for this                                                                                                                        |
-|              |              | Task: _mail.sys_language_uid is now forced to -1 (also for _answer) and add an upgrade wizard for this                                                                                                                |
+|              |              | Task: Rename _field.pages to .page and_page.forms to .form and add an upgrade wizard for this                                                                                                                        |
+|              |              | Task: _mail.sys_language_uid is now forced to -1 (also for_answer) and add an upgrade wizard for this                                                                                                                |
 |              |              | Task: Change documentation from RST to markdown                                                                                                                                                                       |
 |              |              | Task: Update automatic tests                                                                                                                                                                                          |
 |              |              | Task: Code cleanup                                                                                                                                                                                                    |
